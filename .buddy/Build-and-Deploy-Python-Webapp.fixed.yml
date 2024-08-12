@@ -14,7 +14,6 @@
     - "pip install yfinance --upgrade --no-cache-dir"
     cached_dirs:
     - "/root/.cache/pip"
-    shell: "BASH"
   - action: "Build Docker image"
     type: "DOCKERFILE"
     integration: "Docker_Hub"
